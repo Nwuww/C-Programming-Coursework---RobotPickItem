@@ -86,7 +86,6 @@ void moveRobot(Robot *robot, int steps)
     default:
         break;
     }
-    
     printf("Robot %s moved %d steps to (%d, %d)\n", 
            robot->name, steps, robot->position[0], robot->position[1]);
 }
