@@ -14,7 +14,7 @@ void initializeItem(Item *item, int id, ItemType type, int x, int y)
     item->type = type;
     item->position[0] = x;
     item->position[1] = y;
-    item->collected = 0; // Item is not collected initially
+    item->collected = 0;
 }
 
 /// @brief Check if an item is at a given position
