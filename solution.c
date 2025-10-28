@@ -1,6 +1,6 @@
-#include "robot.h"
-#include "item.h"
-#include "area.h"
+#include "headers\robot\robot.h"
+#include "headers\item\item.h"
+#include "headers\grids\grids.h"
 #include "draw\graphics.h"
 #include <stdio.h>
 
