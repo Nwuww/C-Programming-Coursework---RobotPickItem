@@ -30,7 +30,7 @@ void freeGrid(Grid *grid)
 /// @param grid 
 /// @param x 
 /// @param y 
-void isPositionValid(const Grid *grid, int x, int y)
+void checkValid(const Grid *grid, int x, int y)
 {
     return (x >= 0 && x < grid->width && y >= 0 && y < grid->height);
 }
